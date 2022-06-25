@@ -1,0 +1,10 @@
+@import './../assets/styles/variables';
+.header {
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: $box-shadow-nav;
+    color: $primary;
+    img {
+      width: 130px;
+    }
+  }
