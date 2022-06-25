@@ -21,3 +21,16 @@
     margin-right: #{$i}px;
   }
 }
+
+@for $i from 1 through 100 {
+  .my-#{$i} {
+    margin-top: #{$i}px;
+    margin-bottom: #{$i}px;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+}
